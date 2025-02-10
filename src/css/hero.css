@@ -1,0 +1,87 @@
+/* hero-section */
+
+.section-main-title {
+    background-color: #2e2f42;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 320px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+
+        url(../images/people-office@1x.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.main-title {
+    max-width: 216px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.title-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-button:hover,
+.title-button:focus {
+    background-color: #404bbf;
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .section-main-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+
+            url(../images/people-office@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-main-title {
+        max-width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .main-title {
+        max-width: 496px;
+        margin-bottom: 36px;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .section-main-title {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .main-title {
+        margin-bottom: 48px;
+    }
+
+}

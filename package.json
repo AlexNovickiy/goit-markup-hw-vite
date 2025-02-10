@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/116-fs-test-project/",
+    "build": "vite build --base=/goit-markup-hw-vite/",
     "preview": "vite preview"
   },
   "devDependencies": {
